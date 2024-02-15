@@ -1,5 +1,8 @@
 .border {
   background-color: #929aab;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .border-text {
@@ -7,19 +10,35 @@
   color: white;
   width: 1000px;
   padding: 30px 0;
-  position: relative;
-  left: 50%;
   margin: 0;
+  text-align: center;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  margin-top: 50px;
+  grid-template-columns: 2fr 1fr 1fr 1fr 0.3fr;
+  grid-gap: 30px;
+  margin: 50px;
 }
 
 .grid img {
-  width: 300px;
+  width: 100%;
+}
+
+.grid p {
+  font-size: 20px;
+  margin: 10px 0 40px 0;
+}
+
+.grid .fa-arrow-right {
+  font-size: 30px;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+.grid .fa-arrow-right:hover {
+  opacity: 0.6;
+  scale: 1.1;
 }
 
 .secondary-btn {
@@ -27,13 +46,25 @@
   text-decoration: none;
   padding: 15px 20px;
   border-radius: 3px;
-  font-size: 20px;
+  font-size: 15px;
   font-family: monospace;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: black;
 }
 
+.grid .article-link {
+  text-decoration: underline;
+  color: black;
+}
+
 h2 {
   font-size: 50px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0;
 }

@@ -18,16 +18,34 @@ export default function Main() {
             <h2>Artikler</h2>
             <p>Liten kort tekst om artiklene som ligger her</p>
             <a href="/" className="secondary-btn">
-              Se artikler
+              Se alle artikler
             </a>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
             <h3>Artikkel tittel</h3>
+            <a href="/" className="article-link">
+              Les innlegg
+            </a>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
             <h3>Artikkel tittel</h3>
+            <a href="/" className="article-link">
+              Les innlegg
+            </a>
+          </div>
+          <div>
+            <img src={crochet} alt="crochet" />
+            <h3>Artikkel tittel</h3>
+            <a href="/" className="article-link">
+              Les innlegg
+            </a>
+          </div>
+          <div>
+            <a href="/">
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
           </div>
         </div>
       </div>
