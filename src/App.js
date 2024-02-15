@@ -1,6 +1,7 @@
 import "./App.css";
 import crochet from "./crochet.jpg";
 import Main from "./Main";
+import Gallery from "./Gallery";
 
 export default function App() {
   const bakgrunnsbilde = {
@@ -24,6 +25,7 @@ export default function App() {
         </div>
       </div>
       <Main />
+      <Gallery />
     </div>
   );
 }
