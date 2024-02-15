@@ -2,8 +2,15 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+.header {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
 h1 {
-  font-size: 60px;
+  font-size: 100px;
+  color: white;
 }
 
 .btn {
@@ -11,6 +18,10 @@ h1 {
   color: white;
   padding: 15px 20px;
   border-radius: 3px;
+  font-size: 20px;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 a {

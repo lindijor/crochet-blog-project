@@ -11,8 +11,8 @@ export default function App() {
   };
 
   return (
-    <div>
-      <div style={bakgrunnsbilde}>
+    <div style={bakgrunnsbilde}>
+      <div className="header">
         <h1>Velkommen til heklebloggen</h1>
         <a href="/" className="btn">
           Se blogginnlegg
