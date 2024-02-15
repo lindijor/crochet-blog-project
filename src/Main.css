@@ -2,10 +2,6 @@
   background-color: #929aab;
 }
 
-p {
-  margin: 0;
-}
-
 .border-text {
   font-size: 30px;
   color: white;
@@ -13,4 +9,31 @@ p {
   padding: 30px 0;
   position: relative;
   left: 50%;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-top: 50px;
+}
+
+.grid img {
+  width: 300px;
+}
+
+.secondary-btn {
+  background-color: #eeeeee;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+}
+
+h2 {
+  font-size: 50px;
 }
