@@ -1,5 +1,6 @@
 import "./App.css";
 import crochet from "./crochet.jpg";
+import Main from "./Main";
 
 export default function App() {
   const bakgrunnsbilde = {
@@ -11,13 +12,16 @@ export default function App() {
   };
 
   return (
-    <div style={bakgrunnsbilde}>
-      <div className="header">
-        <h1>Velkommen til heklebloggen</h1>
-        <a href="/" className="btn">
-          Se blogginnlegg
-        </a>
+    <div>
+      <div style={bakgrunnsbilde}>
+        <div className="header">
+          <h1>Velkommen til heklebloggen</h1>
+          <a href="/" className="btn">
+            Se blogginnlegg
+          </a>
+        </div>
       </div>
+      <Main />
     </div>
   );
 }

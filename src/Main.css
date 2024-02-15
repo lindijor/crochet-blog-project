@@ -1,0 +1,16 @@
+.border {
+  background-color: #929aab;
+}
+
+p {
+  margin: 0;
+}
+
+.border-text {
+  font-size: 30px;
+  color: white;
+  width: 1000px;
+  padding: 30px 0;
+  position: relative;
+  left: 50%;
+}
