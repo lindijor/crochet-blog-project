@@ -1,5 +1,9 @@
 import "./App.css";
 
 export default function App() {
-  return "HELLO";
+  return (
+    <div>
+      <h1>Velkommen til heklebloggen</h1>
+    </div>
+  );
 }
