@@ -15,7 +15,7 @@ export default function Main() {
       <div>
         <div className="grid">
           <div>
-            <h2>Artikler</h2>
+            <h2>Nyeste artikler</h2>
             <p>Liten kort tekst om artiklene som ligger her</p>
             <a href="/" className="secondary-btn">
               Se alle artikler

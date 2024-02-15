@@ -4,7 +4,7 @@ import Main from "./Main";
 
 export default function App() {
   const bakgrunnsbilde = {
-    backgroundImage: `url(${crochet})`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${crochet})`,
     height: `100vh`,
     backgroundSize: `cover`,
     backgroundPosition: `center`,
@@ -15,7 +15,9 @@ export default function App() {
     <div>
       <div style={bakgrunnsbilde}>
         <div className="header">
-          <h1>Velkommen til heklebloggen</h1>
+          <h1>
+            Velkommen til <br /> heklebloggen
+          </h1>
           <a href="/" className="btn">
             Se blogginnlegg
           </a>
