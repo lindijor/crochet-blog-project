@@ -3,6 +3,7 @@ import crochet from "./crochet.jpg";
 import Main from "./Main";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 export default function App() {
   const bakgrunnsbilde = {
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <div>
       <div style={bakgrunnsbilde}>
+        <Navbar />
         <div className="header">
           <h1>
             Velkommen til <br /> heklebloggen

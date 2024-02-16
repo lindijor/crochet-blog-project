@@ -1,0 +1,23 @@
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 20px;
+  font-size: 20px;
+  text-shadow: black 1px 0 10px;
+}
+
+.navbar a {
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
