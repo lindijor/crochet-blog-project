@@ -4,17 +4,24 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <ul>
+      <div className="navbar-icon">
         <a href="/">
-          <li>Blogginnlegg</li>
+          <i className="fa-solid fa-feather-pointed"></i>
         </a>
-        <a href="/">
-          <li>Bildegalleri</li>
-        </a>
-        <a href="/">
-          <li>Kontakt</li>
-        </a>
-      </ul>
+      </div>
+      <div className="navbar-links">
+        <ul>
+          <a href="/">
+            <li>Blogginnlegg</li>
+          </a>
+          <a href="/">
+            <li>Bildegalleri</li>
+          </a>
+          <a href="/">
+            <li>Kontakt</li>
+          </a>
+        </ul>
+      </div>
     </div>
   );
 }

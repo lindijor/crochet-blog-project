@@ -7,6 +7,7 @@
 .footer h4 {
   font-size: 25px;
   margin: 0;
+  color: white;
 }
 
 .footer ul {
@@ -19,12 +20,13 @@
 }
 
 .footer a {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
 .footer .social-links {
   font-size: 30px;
+  color: white;
 }
 
 .fa-brands {
