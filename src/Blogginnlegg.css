@@ -1,0 +1,26 @@
+.blogginnlegg {
+  margin-top: 100px;
+}
+
+.blogginnlegg h1 {
+  color: black;
+  text-align: center;
+}
+
+.blogginnlegg-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 20px;
+  padding: 100px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.blogginnlegg-grid img {
+  width: 90%;
+}
+
+.bloggtekst p {
+  margin: 20px 0 40px 0;
+  line-height: 1.5;
+}
