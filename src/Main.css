@@ -1,3 +1,37 @@
+.header {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  margin: 0 0 40px 0;
+  line-height: 1;
+}
+
+.btn {
+  background-color: #393e46;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
 .border {
   background-color: #929aab;
   margin-bottom: 100px;

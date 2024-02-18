@@ -1,35 +1,25 @@
 import "./App.css";
-import crochet from "./crochet.jpg";
-import Main from "./Main";
-import Gallery from "./Gallery";
+import Forside from "./Forside.js";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Bildegalleri from "./Bildegalleri";
+import Blogginnlegg from "./Blogginnlegg";
+import Kontakt from "./Kontakt";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
-  const bakgrunnsbilde = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${crochet})`,
-    height: `100vh`,
-    backgroundSize: `cover`,
-    backgroundPosition: `center`,
-    backgroundRepeat: `no-repeat`,
-  };
-
   return (
     <div>
-      <div style={bakgrunnsbilde}>
+      <Router>
         <Navbar />
-        <div className="header">
-          <h1>
-            Velkommen til <br /> heklebloggen
-          </h1>
-          <a href="/" className="btn">
-            Se blogginnlegg
-          </a>
-        </div>
-      </div>
-      <Main />
-      <Gallery />
-      <Footer />
+        <Routes>
+          <Route path="/" element={<Forside />} />
+          <Route path="/blogginnlegg" element={<Blogginnlegg />} />
+          <Route path="/bildegalleri" element={<Bildegalleri />} />
+          <Route path="/kontakt" element={<Kontakt />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
