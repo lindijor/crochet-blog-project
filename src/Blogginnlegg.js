@@ -15,21 +15,21 @@ export default function Blogginnlegg() {
     {
       id: 2,
       tittel: "Tittel på blogginnlegg to",
-      url: "tittel-pa-blogginnlegg-to",
+      url: "blogginnleggtittel",
       intro:
         "Kort introtekst om innleggene man kan finne og lese om her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel. Liten kort introtekst om innlegget som ligger her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel",
     },
     {
       id: 3,
       tittel: "Tittel på blogginnlegg tre",
-      url: "tittel-pa-blogginnlegg-tre",
+      url: "blogginnleggtittel",
       intro:
         "Kort introtekst om innleggene man kan finne og lese om her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel. Liten kort introtekst om innlegget som ligger her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel",
     },
     {
       id: 4,
       tittel: "Tittel på blogginnlegg 4",
-      url: "tittel-pa-blogginnlegg-fire",
+      url: "blogginnleggtittel",
       intro:
         "Kort introtekst om innleggene man kan finne og lese om her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel. Liten kort introtekst om innlegget som ligger her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel",
     },
