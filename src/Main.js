@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
 import crochet from "./crochet.jpg";
+import { Link } from "react-router-dom";
 
 export default function Main() {
   const bakgrunnsbilde = {
@@ -18,9 +19,9 @@ export default function Main() {
           <h1>
             Velkommen til <br /> heklebloggen
           </h1>
-          <a href="/" className="btn">
+          <Link to="/blogginnlegg" className="btn">
             Se blogginnlegg
-          </a>
+          </Link>
         </div>
       </div>
       <div className="border">
@@ -35,9 +36,9 @@ export default function Main() {
           <div>
             <h2>Nyeste artikler</h2>
             <p>Liten kort tekst om artiklene som ligger her</p>
-            <a href="/" className="secondary-btn">
+            <Link to="/blogginnlegg" className="secondary-btn">
               Se alle artikler
-            </a>
+            </Link>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
@@ -61,9 +62,9 @@ export default function Main() {
             </a>
           </div>
           <div>
-            <a href="/">
+            <Link to="/blogginnlegg">
               <i class="fa-solid fa-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

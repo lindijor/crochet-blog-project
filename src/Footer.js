@@ -9,22 +9,22 @@ export default function Footer() {
           <h4>Kontakt</h4>
           <ul>
             <li>
-              <a href="/">E-post</a>
+              <a href="mailto:hei@hekling.no">E-post</a>
             </li>
             <li>
-              <a href="/">Telefon</a>
+              <a href="tel:98765432">Telefon</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="social-links">
-        <a href="/">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="/">
+        <a href="https://instagram.com/" target="_blank" rel="noreferrer">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="/">
+        <a href="https://pinterest.com/" target="_blank" rel="noreferrer">
           <i class="fa-brands fa-pinterest-p"></i>
         </a>
       </div>

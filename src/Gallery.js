@@ -1,6 +1,7 @@
 import React from "react";
 import "./Gallery.css";
 import crochet from "./crochet.jpg";
+import { Link } from "react-router-dom";
 
 export default function Gallery() {
   return (
@@ -14,9 +15,9 @@ export default function Gallery() {
         <img src={crochet} alt="crochet" />
         <img src={crochet} alt="crochet" />
       </div>
-      <a href="/" className="btn">
+      <Link to="/bildegalleri" className="btn">
         Se alle bilder
-      </a>
+      </Link>
     </div>
   );
 }
