@@ -1,6 +1,8 @@
 import React from "react";
 import "./Gallery.css";
 import crochet from "./crochet.jpg";
+import crochet1 from "./crochet1.jpg";
+import crochet3 from "./crochet3.jpg";
 import { Link } from "react-router-dom";
 
 export default function Bildegalleri() {
@@ -13,7 +15,19 @@ export default function Bildegalleri() {
           <p>Kort beskrivelse av bildet</p>
         </div>
         <div>
-          <img src={crochet} alt="crochet" />
+          <img src={crochet1} alt="crochet" />
+          <p>Kort beskrivelse av bildet</p>
+        </div>
+        <div>
+          <img src={crochet3} alt="crochet" />
+          <p>Kort beskrivelse av bildet</p>
+        </div>
+        <div>
+          <img src={crochet1} alt="crochet" />
+          <p>Kort beskrivelse av bildet</p>
+        </div>
+        <div>
+          <img src={crochet3} alt="crochet" />
           <p>Kort beskrivelse av bildet</p>
         </div>
         <div>
@@ -21,7 +35,7 @@ export default function Bildegalleri() {
           <p>Kort beskrivelse av bildet</p>
         </div>
         <div>
-          <img src={crochet} alt="crochet" />
+          <img src={crochet3} alt="crochet" />
           <p>Kort beskrivelse av bildet</p>
         </div>
         <div>
@@ -29,31 +43,7 @@ export default function Bildegalleri() {
           <p>Kort beskrivelse av bildet</p>
         </div>
         <div>
-          <img src={crochet} alt="crochet" />
-          <p>Kort beskrivelse av bildet</p>
-        </div>
-        <div>
-          <img src={crochet} alt="crochet" />
-          <p>Kort beskrivelse av bildet</p>
-        </div>
-        <div>
-          <img src={crochet} alt="crochet" />
-          <p>Kort beskrivelse av bildet</p>
-        </div>
-        <div>
-          <img src={crochet} alt="crochet" />
-          <p>Kort beskrivelse av bildet</p>
-        </div>
-        <div>
-          <img src={crochet} alt="crochet" />
-          <p>Kort beskrivelse av bildet</p>
-        </div>
-        <div>
-          <img src={crochet} alt="crochet" />
-          <p>Kort beskrivelse av bildet</p>
-        </div>
-        <div>
-          <img src={crochet} alt="crochet" />
+          <img src={crochet1} alt="crochet" />
           <p>Kort beskrivelse av bildet</p>
         </div>
       </div>

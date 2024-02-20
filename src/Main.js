@@ -17,7 +17,7 @@ export default function Main() {
       <div style={bakgrunnsbilde}>
         <div className="header">
           <h1>
-            Velkommen til <br /> heklebloggen
+            Hekling til <br /> hverdag og fest
           </h1>
           <Link to="/blogginnlegg" className="btn">
             Se blogginnlegg
