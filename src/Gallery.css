@@ -1,6 +1,6 @@
 .gallery {
   background-color: #f7f7f7;
-  padding: 50px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
   margin: 50px 30px;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Main.css";
 import crochet from "./crochet.jpg";
+import crochet1 from "./crochet1.jpg";
+import crochet2 from "./crochet2.jpg";
 import { Link } from "react-router-dom";
 
 export default function Main() {
@@ -52,7 +54,7 @@ export default function Main() {
             </Link>
           </div>
           <div>
-            <img src={crochet} alt="crochet" />
+            <img src={crochet1} alt="crochet" />
             <h3>Hekling 101 - En komplett guide</h3>
             <Link
               to="/blogginnlegg/blogginnleggtittel"
@@ -62,7 +64,7 @@ export default function Main() {
             </Link>
           </div>
           <div>
-            <img src={crochet} alt="crochet" />
+            <img src={crochet2} alt="crochet" />
             <h3>Personlige og håndlagde hekleideer</h3>
             <Link
               to="/blogginnlegg/blogginnleggtittel"

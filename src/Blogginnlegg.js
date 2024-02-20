@@ -1,5 +1,8 @@
 import React from "react";
 import crochet from "./crochet.jpg";
+import crochet1 from "./crochet1.jpg";
+import crochet2 from "./crochet2.jpg";
+import crochet3 from "./crochet3.jpg";
 import "./Blogginnlegg.css";
 import { Link } from "react-router-dom";
 
@@ -11,6 +14,7 @@ export default function Blogginnlegg() {
       url: "blogginnleggtittel",
       intro:
         "Kort introtekst om innleggene man kan finne og lese om her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel. Liten kort introtekst om innlegget som ligger her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel",
+      bilde: crochet,
     },
     {
       id: 2,
@@ -18,6 +22,7 @@ export default function Blogginnlegg() {
       url: "blogginnleggtittel",
       intro:
         "Kort introtekst om innleggene man kan finne og lese om her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel. Liten kort introtekst om innlegget som ligger her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel",
+      bilde: crochet1,
     },
     {
       id: 3,
@@ -25,6 +30,7 @@ export default function Blogginnlegg() {
       url: "blogginnleggtittel",
       intro:
         "Kort introtekst om innleggene man kan finne og lese om her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel. Liten kort introtekst om innlegget som ligger her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel",
+      bilde: crochet2,
     },
     {
       id: 4,
@@ -32,6 +38,7 @@ export default function Blogginnlegg() {
       url: "blogginnleggtittel",
       intro:
         "Kort introtekst om innleggene man kan finne og lese om her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel. Liten kort introtekst om innlegget som ligger her. Dette er et superfint blogginnlegg du burde lese! Ble du nysgjerrig nå? Les mer her da vel",
+      bilde: crochet3,
     },
   ];
 
@@ -51,7 +58,7 @@ export default function Blogginnlegg() {
         {blogginnleggListe.map((innlegg) => (
           <div className="blogginnlegg-grid">
             <div key={innlegg.id}>
-              <img src={crochet} alt="crochet" />
+              <img src={innlegg.bilde} alt="crochet" />
             </div>
             <div className="bloggtekst">
               <h2>{innlegg.tittel}</h2>
