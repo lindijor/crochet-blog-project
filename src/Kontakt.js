@@ -6,7 +6,7 @@ export default function Kontakt() {
     <div className="kontakt">
       <h1>Kontakt</h1>
       <div className="kontakt-grid">
-        <div>
+        <div className="kontakt-grid-text">
           <h2>
             Har du spørsmål eller ønsker mer informasjon? Ta gjerne kontakt!
           </h2>
@@ -19,7 +19,7 @@ export default function Kontakt() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="kontakt-grid-form">
           <form>
             <div>
               <input type="text" placeholder="Fornavn" className="first-name" />
