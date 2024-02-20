@@ -24,6 +24,10 @@
   border-radius: 3px;
 }
 
+.gallery-grid img:hover {
+  scale: 1.05;
+}
+
 .gallery-grid p {
   margin: 5px 0 10px 0;
   text-align: left;

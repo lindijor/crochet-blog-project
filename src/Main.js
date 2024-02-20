@@ -26,37 +26,38 @@ export default function Main() {
       </div>
       <div className="border">
         <p className="border-text">
-          Lorem ipsum bla bla bla bla dette er en test tekst som skal erstattes
-          av noe senere, så jeg bare har denne her så lenge sånn at jeg vet
-          hvordan...
+          Hekling er en kreativ håndarbeidsteknikk for å lage tekstiler ved å
+          bruke en heklenål og garn. Denne teknikken gjør det mulig å skape alt
+          fra klær til hjemmeinnredning, og er kjent for sin fleksibilitet og
+          det brede spekteret av mønstre og design som kan oppnås.
         </p>
       </div>
       <div>
         <div className="grid">
           <div>
-            <h2>Nyeste artikler</h2>
-            <p>Liten kort tekst om artiklene som ligger her</p>
+            <h2>Nyeste innlegg</h2>
+            <p>Se tips, mønstre og inspirasjon for hekleentusiaster!</p>
             <Link to="/blogginnlegg" className="secondary-btn">
-              Se alle artikler
+              Se alle blogginnlegg
             </Link>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
-            <h3>Artikkel tittel</h3>
+            <h3>10 må-ha hekletilbehør for nybegynnere</h3>
             <a href="/" className="article-link">
               Les innlegg
             </a>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
-            <h3>Artikkel tittel</h3>
+            <h3>Hekling 101 - En komplett guide</h3>
             <a href="/" className="article-link">
               Les innlegg
             </a>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
-            <h3>Artikkel tittel</h3>
+            <h3>Personlige og håndlagde hekleideer</h3>
             <a href="/" className="article-link">
               Les innlegg
             </a>

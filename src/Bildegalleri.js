@@ -9,6 +9,7 @@ export default function Bildegalleri() {
   return (
     <div className="gallery">
       <h1>Bildegalleri</h1>
+      <p>Bli inspirert til ditt neste hekle-prosjekt!</p>
       <div className="gallery-grid">
         <div>
           <img src={crochet} alt="crochet" />
