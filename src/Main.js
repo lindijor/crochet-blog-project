@@ -44,23 +44,32 @@ export default function Main() {
           <div>
             <img src={crochet} alt="crochet" />
             <h3>10 må-ha hekletilbehør for nybegynnere</h3>
-            <a href="/" className="article-link">
+            <Link
+              to="/blogginnlegg/blogginnleggtittel"
+              className="article-link"
+            >
               Les innlegg
-            </a>
+            </Link>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
             <h3>Hekling 101 - En komplett guide</h3>
-            <a href="/" className="article-link">
+            <Link
+              to="/blogginnlegg/blogginnleggtittel"
+              className="article-link"
+            >
               Les innlegg
-            </a>
+            </Link>
           </div>
           <div>
             <img src={crochet} alt="crochet" />
             <h3>Personlige og håndlagde hekleideer</h3>
-            <a href="/" className="article-link">
+            <Link
+              to="/blogginnlegg/blogginnleggtittel"
+              className="article-link"
+            >
               Les innlegg
-            </a>
+            </Link>
           </div>
           <div>
             <Link to="/blogginnlegg">
