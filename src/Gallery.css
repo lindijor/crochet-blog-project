@@ -33,7 +33,7 @@
   text-align: left;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .gallery {
     padding: 10px;
   }
