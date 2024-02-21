@@ -47,8 +47,12 @@
   width: 100%;
 }
 
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
 form .message {
-  width: 90%;
   height: 150px;
   resize: none;
 }
@@ -58,12 +62,19 @@ form .message {
 .last-name,
 .phone,
 .message {
-  width: 40%;
   margin-right: 15px;
   margin-bottom: 15px;
   font-family: monospace;
-  font-size: 18px;
+  font-size: 15px;
   padding: 5px;
+}
+
+.form-labels {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: monospace;
+  width: 100%;
 }
 
 .afterSubmit {
@@ -83,7 +94,7 @@ form .message {
   text-decoration: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .kontakt-grid {
     display: block;
     width: 80%;
@@ -105,7 +116,7 @@ form .message {
 
   form .message {
     height: 100px;
-    width: 100%;
+    width: 70%;
   }
 
   .first-name,
@@ -113,8 +124,12 @@ form .message {
   .last-name,
   .phone,
   .message {
-    width: 100%;
+    width: 70%;
     font-size: 12px;
+  }
+
+  .form-row {
+    display: block;
   }
 
   .afterSubmit {

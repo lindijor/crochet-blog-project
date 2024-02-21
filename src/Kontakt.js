@@ -40,24 +40,57 @@ export default function Kontakt() {
         </div>
         <div className="kontakt-grid-form">
           <form onSubmit={alertSubmitted}>
-            <div>
-              <input type="text" placeholder="Fornavn" className="first-name" />
-              <input
-                type="text"
-                placeholder="Etternavn"
-                className="last-name"
-              />
+            <div className="form-row">
+              <div className="form-labels">
+                <label for="fornavn">Fornavn</label>
+                <input
+                  type="text"
+                  id="fornavn"
+                  required
+                  placeholder="Kari"
+                  className="first-name"
+                />
+              </div>
+              <div className="form-labels">
+                <label for="etternavn">Etternavn</label>
+                <input
+                  type="text"
+                  id="etternavn"
+                  required
+                  placeholder="Nordmann"
+                  className="last-name"
+                />
+              </div>
             </div>
-            <div>
-              <input type="email" placeholder="E-post" className="email" />
-              <input
-                type="phone"
-                placeholder="Telefonnummer"
-                className="phone"
-              />
+            <div className="form-row">
+              <div className="form-labels">
+                <label for="email">E-post</label>
+                <input
+                  type="email"
+                  id="email"
+                  required
+                  placeholder="hei@hei.no"
+                  className="email"
+                />
+              </div>
+              <div className="form-labels">
+                <label for="telephone">Telefonnummer</label>
+                <input
+                  type="tel"
+                  id="telephone"
+                  required
+                  placeholder="987 65 432"
+                  className="phone"
+                />
+              </div>
             </div>
-            <div>
-              <textarea placeholder="Melding" class="message"></textarea>
+            <div className="form-labels">
+              <label for="message">Melding</label>
+              <textarea
+                placeholder="Skriv din melding her"
+                id="message"
+                class="message"
+              ></textarea>
             </div>
             <div>
               <button type="submit" className="btn">
