@@ -65,3 +65,38 @@ form .message {
   font-size: 18px;
   padding: 5px;
 }
+
+@media (max-width: 500px) {
+  .kontakt-grid {
+    display: block;
+    width: 80%;
+  }
+
+  .kontakt h1 {
+    font-size: 60px;
+    width: 80%;
+  }
+
+  .kontakt-grid h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .kontakt-grid li {
+    font-size: 15px;
+  }
+
+  form .message {
+    height: 100px;
+    width: 100%;
+  }
+
+  .first-name,
+  .email,
+  .last-name,
+  .phone,
+  .message {
+    width: 100%;
+    font-size: 12px;
+  }
+}
