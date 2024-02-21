@@ -134,6 +134,7 @@ form .message {
 
   .afterSubmit {
     margin: 50px;
+    width: 90%;
   }
 
   .afterSubmit p {
