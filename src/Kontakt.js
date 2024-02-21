@@ -69,7 +69,7 @@ export default function Kontakt() {
                   type="email"
                   id="email"
                   required
-                  placeholder="hei@hei.no"
+                  placeholder="hei@hekling.no"
                   className="email"
                 />
               </div>
