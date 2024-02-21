@@ -111,3 +111,48 @@ h3 {
   font-weight: lighter;
   margin: 0;
 }
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .border-text {
+    font-size: 10px;
+    padding: 20px 0;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  .article-section {
+    margin-top: 40px;
+  }
+
+  .grid p {
+    font-size: 10px;
+  }
+
+  .grid .fa-arrow-right {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .grid .fa-arrow-right {
+    display: none;
+  }
+
+  .btn,
+  .secondary-btn {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}

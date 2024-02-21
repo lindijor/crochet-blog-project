@@ -32,3 +32,19 @@
   text-decoration: underline;
   opacity: 0.7;
 }
+
+@media (max-width: 500px) {
+  .navbar .fa-feather-pointed {
+    font-size: 20px;
+    padding: 0 0 0 15px;
+  }
+
+  .navbar ul {
+    margin: 0 15px 0 0;
+  }
+
+  .navbar li {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+}

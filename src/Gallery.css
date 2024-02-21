@@ -32,3 +32,14 @@
   margin: 5px 0 10px 0;
   text-align: left;
 }
+
+@media (max-width: 500px) {
+  .gallery {
+    padding: 10px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}
