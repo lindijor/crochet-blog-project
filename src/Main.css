@@ -113,6 +113,10 @@ h3 {
 }
 
 @media (max-width: 500px) {
+  .header {
+    top: 30%;
+  }
+
   h1 {
     font-size: 50px;
   }

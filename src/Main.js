@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Main.css";
 import crochet from "./crochet.jpg";
 import crochet1 from "./crochet1.jpg";
@@ -6,13 +6,29 @@ import crochet2 from "./crochet2.jpg";
 import { Link } from "react-router-dom";
 
 export default function Main() {
-  const bakgrunnsbilde = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${crochet})`,
-    height: `100vh`,
-    backgroundSize: `cover`,
-    backgroundPosition: `center`,
-    backgroundRepeat: `no-repeat`,
-  };
+  const [bakgrunnsbilde, setBakgrunnsbilde] = useState(
+    getStil(window.innerWidth)
+  );
+
+  useEffect(() => {
+    function handleResize() {
+      setBakgrunnsbilde(getStil(window.innerWidth));
+    }
+
+    window.addEventListener(`resize`, handleResize);
+    return () => window.removeEventListener(`resize`, handleResize);
+  }, []);
+
+  function getStil(width) {
+    return {
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${crochet})`,
+      height: `100vh`,
+      backgroundSize: `cover`,
+      backgroundPosition: `center`,
+      backgroundRepeat: `no-repeat`,
+      ...(width < 500 ? { height: `60vh` } : {}),
+    };
+  }
 
   return (
     <div>
