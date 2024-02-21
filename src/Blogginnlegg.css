@@ -45,6 +45,10 @@
     margin: 0 auto;
   }
 
+  .blogginnlegg-grid h2 {
+    font-size: 30px;
+  }
+
   .bloggtekst p {
     font-size: 12px;
     margin: 20px 0;
