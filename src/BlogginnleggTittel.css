@@ -27,3 +27,18 @@
   line-height: 1.7;
   margin: 0 0 50px 0;
 }
+
+@media (max-width: 500px) {
+  .blogginnlegg-innhold {
+    width: 90%;
+  }
+
+  .blogginnlegg-innhold .ingress {
+    font-size: 15px;
+  }
+
+  .blogginnlegg-innhold .brodtekst {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
