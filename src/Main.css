@@ -137,7 +137,7 @@ h3 {
   }
 
   .article-section {
-    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .grid p {
@@ -166,5 +166,9 @@ h3 {
   .secondary-btn {
     padding: 10px 15px;
     font-size: 12px;
+  }
+
+  .grid .secondary-btn {
+    display: none;
   }
 }
