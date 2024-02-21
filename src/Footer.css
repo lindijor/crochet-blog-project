@@ -2,6 +2,7 @@
   background-color: #929aab;
   padding: 30px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .footer h4 {
@@ -36,10 +37,4 @@
 
 .fa-brands:hover {
   opacity: 0.6;
-}
-
-@media (max-width: 900px) {
-  .footer {
-    margin-top: 50px;
-  }
 }

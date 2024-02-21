@@ -47,12 +47,10 @@ export default function Blogginnlegg() {
       <h1>Blogginnlegg</h1>
       <p className="blogg-intro">
         Enten du er en erfaren hekler eller akkurat har oppdaget gleden ved å
-        skape med heklenål og garn, har du kommet til rett sted. Her utforsker
-        vi alle aspekter ved hekling – fra grunnleggende teknikker for
-        nybegynnere til avanserte mønstre som vil utfordre selv den mest erfarne
-        hekler. Her finner du en skattkiste av inspirasjon, inkludert tips for
-        garnvalg, trinn-for-trinn guider for unike prosjekter, og ideer for å
-        gjøre dine heklede kreasjoner personlige og unike. La oss hekle sammen!
+        skape med heklenål og garn, har du kommet til rett sted. Her finner du
+        en skattkiste av inspirasjon, inkludert tips for garnvalg,
+        trinn-for-trinn guider for unike prosjekter, og ideer for å gjøre dine
+        heklede kreasjoner personlige og unike. La oss hekle sammen!
       </p>
       <div>
         {blogginnleggListe.map((innlegg) => (

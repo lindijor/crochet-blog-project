@@ -52,7 +52,7 @@ export default function Main() {
       </div>
       <div>
         <div className="grid">
-          <div>
+          <div className="header-article-grid">
             <h2>Nyeste innlegg</h2>
             <p>Se tips, mønstre og inspirasjon for hekleentusiaster!</p>
             <Link to="/blogginnlegg" className="secondary-btn">
@@ -91,6 +91,7 @@ export default function Main() {
           </div>
           <div>
             <Link to="/blogginnlegg">
+              <span>Se alle blogginnlegg</span>{" "}
               <i class="fa-solid fa-arrow-right"></i>
             </Link>
           </div>
