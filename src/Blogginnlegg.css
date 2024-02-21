@@ -31,3 +31,30 @@
   margin: 20px 0 40px 0;
   line-height: 1.5;
 }
+
+@media (max-width: 500px) {
+  .blogginnlegg .blogg-intro {
+    font-size: 12px;
+    width: 80%;
+    text-align: left;
+  }
+
+  .blogginnlegg-grid {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .bloggtekst p {
+    font-size: 12px;
+    margin: 20px 0;
+  }
+
+  .blogginnlegg-grid img {
+    margin-bottom: 20px;
+  }
+
+  .blogginnlegg-grid .btn {
+    margin: 0;
+  }
+}
