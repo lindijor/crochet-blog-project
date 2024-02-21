@@ -26,7 +26,7 @@ export default function Main() {
       backgroundSize: `cover`,
       backgroundPosition: `center`,
       backgroundRepeat: `no-repeat`,
-      ...(width < 500 ? { height: `60vh` } : {}),
+      ...(width < 900 ? { height: `60vh` } : {}),
     };
   }
 

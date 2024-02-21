@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Kontakt.css";
+import { Link } from "react-router-dom";
 
 export default function Kontakt() {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  function alertSubmitted(event) {
+    event.preventDefault();
+    setIsSubmitted(true);
+  }
+
+  if (isSubmitted) {
+    return (
+      <div className="afterSubmit">
+        <p>Takk for din henvendelse! Du hører fra oss innen kort tid ✨</p>
+        <Link to="/blogginnlegg" className="link">
+          Hva med å lese noen blogginnlegg mens du venter?
+        </Link>
+      </div>
+    );
+  }
+
   return (
     <div className="kontakt">
       <h1>Kontakt</h1>
@@ -20,7 +39,7 @@ export default function Kontakt() {
           </ul>
         </div>
         <div className="kontakt-grid-form">
-          <form>
+          <form onSubmit={alertSubmitted}>
             <div>
               <input type="text" placeholder="Fornavn" className="first-name" />
               <input

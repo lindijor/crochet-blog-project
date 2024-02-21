@@ -66,6 +66,23 @@ form .message {
   padding: 5px;
 }
 
+.afterSubmit {
+  text-align: center;
+  margin: 100px;
+}
+
+.afterSubmit p {
+  font-size: 30px;
+}
+
+.afterSubmit .link {
+  display: block;
+  margin: 0 auto;
+  font-size: 15px;
+  color: black;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .kontakt-grid {
     display: block;
@@ -98,5 +115,13 @@ form .message {
   .message {
     width: 100%;
     font-size: 12px;
+  }
+
+  .afterSubmit {
+    margin: 50px;
+  }
+
+  .afterSubmit p {
+    font-size: 20px;
   }
 }
