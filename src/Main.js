@@ -35,7 +35,7 @@ export default function Main() {
       <div style={bakgrunnsbilde}>
         <div className="header">
           <h1>
-            Hekling til <br /> hverdag og fest
+            Heklehistorier <br /> og garnkunst
           </h1>
           <Link to="/blogginnlegg" className="btn">
             Se blogginnlegg
