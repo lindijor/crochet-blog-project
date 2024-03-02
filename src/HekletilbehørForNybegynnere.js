@@ -76,7 +76,7 @@ export default function BlogginnleggTittel() {
         enten du er hjemme eller på farten.
       </p>
       <br />
-      <p className="last-paragraph">
+      <p className="brodtekst">
         Med disse ti hekletilbehørene er du godt utrustet til å starte din
         hekleeventyr. Husk at tålmodighet og praksis er nøkkelen til å mestre
         denne kunsten. Lykke til med heklingen!

@@ -20,7 +20,7 @@ export default function Blogginnlegg() {
     {
       id: 2,
       tittel: "Hekling 101 - En komplett guide",
-      url: "blogginnleggtittel",
+      url: "hekling-101-en-komplett-guide",
       intro:
         "Hekling er en kunstform som har gledet mennesker i generasjoner, en ferdighet som vever sammen kreativitet og håndverk for å skape alt fra praktiske hverdagsobjekter til intrikate kunstverk. Om du er helt fersk i heklingens verden eller en erfaren strikker som ser etter nye utfordringer, `Hekling 101 - En komplett guide` er her for å veilede deg gjennom hvert trinn på din hekle-reise.",
       bilde: crochet1,

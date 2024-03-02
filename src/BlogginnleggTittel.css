@@ -24,6 +24,11 @@
   margin: 40px 0 20px 0;
 }
 
+.blogginnlegg-innhold h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
 .blogginnlegg-innhold .ingress {
   font-size: 20px;
   font-weight: bold;
@@ -39,10 +44,6 @@
   font-size: 16px;
   line-height: 1.7;
   margin: 0 0 40px 0;
-}
-
-.blogginnlegg-innhold .last-paragraph {
-  margin-bottom: 50px;
 }
 
 @media (max-width: 900px) {
