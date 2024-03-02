@@ -63,7 +63,7 @@ export default function Main() {
             <img src={crochet} alt="crochet" />
             <h3>10 må-ha hekletilbehør for nybegynnere</h3>
             <Link
-              to="/blogginnlegg/blogginnleggtittel"
+              to="/blogginnlegg/10-ma-ha-hekletilbehor-for-nybegynnere"
               className="article-link"
             >
               Les innlegg
@@ -73,7 +73,7 @@ export default function Main() {
             <img src={crochet1} alt="crochet" />
             <h3>Hekling 101 - En komplett guide</h3>
             <Link
-              to="/blogginnlegg/blogginnleggtittel"
+              to="/blogginnlegg/hekling-101-en-komplett-guide"
               className="article-link"
             >
               Les innlegg
