@@ -11,10 +11,11 @@ export default function Blogginnlegg() {
     {
       id: 1,
       tittel: "10 må-ha hekletilbehør for nybegynnere",
-      url: "blogginnleggtittel",
+      url: "10-ma-ha-hekletilbehor-for-nybegynnere",
       intro:
         "Å dykke ned i heklingens verden kan være både spennende og litt overveldende. Med så mange verktøy og tilbehør tilgjengelig, kan det være utfordrende å vite hvor man skal begynne. Enten du er helt ny til hekling eller nettopp har bestemt deg for å ta hobbyen til et nytt nivå, er det visse tilbehør som kan gjøre reisen din både enklere og mer fornøyelig.",
       bilde: crochet,
+      tags: ["tips"],
     },
     {
       id: 2,
@@ -23,6 +24,7 @@ export default function Blogginnlegg() {
       intro:
         "Hekling er en kunstform som har gledet mennesker i generasjoner, en ferdighet som vever sammen kreativitet og håndverk for å skape alt fra praktiske hverdagsobjekter til intrikate kunstverk. Om du er helt fersk i heklingens verden eller en erfaren strikker som ser etter nye utfordringer, `Hekling 101 - En komplett guide` er her for å veilede deg gjennom hvert trinn på din hekle-reise.",
       bilde: crochet1,
+      tags: ["tips"],
     },
     {
       id: 3,
@@ -31,6 +33,7 @@ export default function Blogginnlegg() {
       intro:
         "I en verden hvor det meste kan kjøpes med et enkelt klikk, står håndlagde gaver ut som symboler på omtanke og personlig dedikasjon. Hekling tilbyr en unik mulighet til å skape personlige gaver og dekorasjoner som bærer en del av skaperens hjerte og sjel.",
       bilde: crochet2,
+      tags: ["oppskrifter"],
     },
     {
       id: 4,
@@ -39,6 +42,7 @@ export default function Blogginnlegg() {
       intro:
         "I en travel hverdag kan tiden dedikert til hekling være en dyrebar flukt fra hverdagens stress, en stund av ro og kreativ utfoldelse. Men hva om du kunne gjøre denne tiden enda mer produktiv? Her avslører vi strategiene og teknikkene som kan hjelpe deg å hekle raskere, uten å ofre kvaliteten på arbeidet ditt.",
       bilde: crochet3,
+      tags: ["øvrig"],
     },
   ];
 

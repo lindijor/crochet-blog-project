@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Bildegalleri from "./Bildegalleri";
 import Blogginnlegg from "./Blogginnlegg";
-import BlogginnleggTittel from "./BlogginnleggTittel.js";
+import HekletilbehørForNybegynnere from "./HekletilbehørForNybegynnere.js";
 import ScrollToTop from "./ScrollToTop";
 import Kontakt from "./Kontakt";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -19,8 +19,8 @@ export default function App() {
           <Route path="/" element={<Forside />} />
           <Route path="/blogginnlegg" element={<Blogginnlegg />} />
           <Route
-            path="/blogginnlegg/blogginnleggtittel"
-            element={<BlogginnleggTittel />}
+            path="/blogginnlegg/10-ma-ha-hekletilbehor-for-nybegynnere"
+            element={<HekletilbehørForNybegynnere />}
           />
           <Route path="/bildegalleri" element={<Bildegalleri />} />
           <Route path="/kontakt" element={<Kontakt />} />
