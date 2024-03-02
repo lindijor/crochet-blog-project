@@ -7,6 +7,7 @@ export default function BlogginnleggTittel() {
   return (
     <div className="blogginnlegg-innhold">
       <img src={crochet} alt="crochet" />
+      <p className="tag">Tips</p>
       <h1>10 må ha hekletilbehør for nybegynnere</h1>
       <p className="ingress">
         Hekling er en berikende og kreativ hobby som lar deg lage alt fra enkle

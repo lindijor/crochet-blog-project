@@ -3,9 +3,20 @@
   margin: 50px auto 100px;
 }
 
+.blogginnlegg-innhold .tag {
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #eeeeee;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
 .blogginnlegg-innhold h1 {
   color: black;
   font-size: 60px;
+  margin-top: 30px;
 }
 
 .blogginnlegg-innhold h2 {
