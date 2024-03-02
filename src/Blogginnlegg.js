@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import crochet from "./crochet.jpg";
 import crochet1 from "./crochet1.jpg";
 import crochet2 from "./crochet2.jpg";
@@ -46,6 +46,13 @@ export default function Blogginnlegg() {
     },
   ];
 
+  const [valgtTag, setValgtTag] = useState(``);
+  const filteredPosts = valgtTag
+    ? blogginnleggListe.filter((innlegg) =>
+        innlegg.tags.includes(valgtTag.toLowerCase())
+      )
+    : blogginnleggListe;
+
   return (
     <div className="blogginnlegg">
       <h1>Blogginnlegg</h1>
@@ -56,13 +63,22 @@ export default function Blogginnlegg() {
         trinn-for-trinn guider for unike prosjekter, og ideer for å gjøre dine
         heklede kreasjoner personlige og unike. La oss hekle sammen!
       </p>
+      <div className="tags-links">
+        {[`Tips`, `Oppskrifter`, `Øvrig`].map((tag) => (
+          <button key={tag} className="tags" onClick={() => setValgtTag(tag)}>
+            {tag}
+          </button>
+        ))}
+      </div>
+
       <div>
-        {blogginnleggListe.map((innlegg) => (
+        {filteredPosts.map((innlegg) => (
           <div className="blogginnlegg-grid">
             <div key={innlegg.id}>
               <img src={innlegg.bilde} alt="crochet" />
             </div>
             <div className="bloggtekst">
+              <p className="tags">{innlegg.tags.join(`, `)}</p>
               <h2>{innlegg.tittel}</h2>
               <p>{innlegg.intro}</p>
               <Link to={`/blogginnlegg/${innlegg.url}`} className="btn">
